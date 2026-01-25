@@ -68,7 +68,7 @@ export default function PhotoScreen({ onNext }) {
                     animate={{ opacity: 1 }}
                     transition={{ delay: 1 }}
                 >
-                    You've made me so special  since we talk before then💕
+                   We in future if you accept my proposal💕
                 </motion.p>
             </motion.div>
 
