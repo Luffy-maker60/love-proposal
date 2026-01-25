@@ -12,18 +12,14 @@ export default function FinalScreen() {
   const [showOverlay, setShowOverlay] = useState(false)
   const messageRef = useRef(null)
 
-  const proposalMessage = `From the moment you came into my life, everything started to change.  
-You brought colors to my ordinary days, warmth to my silence, and a happiness I didn’t even know I was missing.  
+  const proposalMessage = `Even though we got separated after 6th class, the bond we shared never really faded for me.
+When we started talking again after 7 years, I felt the same care and warmth—maybe even stronger than before.
 
-Every sunrise feels brighter because of you.  
-Every dream feels possible because you inspire me.  
-Every challenge feels easier because I imagine you by my side.  
+And then we didn't talk any more 
+The way you look after me and understand me now means more than I can explain.
 
-You are not just my friend, you’re the most special part of my life.  
-You make me smile, you make my heart race, and you make me want to be a better version of myself.  
-
-I don’t know what the future holds, but I know one thing for sure.
-I want that future with you.`
+Somewhere between our conversations, you became very special to my heart.
+So today, with all honesty, I want to ask—will you be more than my friend and be with me?.`
 
   useEffect(() => {
     if (cardOpen && !typingComplete) {
