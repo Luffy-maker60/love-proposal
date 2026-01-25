@@ -2,8 +2,37 @@
 
 import { motion } from "motion/react"
 import { Heart } from "lucide-react"
+import {useEffect }from "react"
 
 export default function FirstScreen({ onNext }) {
+    import { useEffect } from "react";
+
+const FirstScreen = () => {
+  useEffect(() => {
+    const audio = new Audio("/bgmusic-.mp3");
+    audio.loop = true;
+    audio.volume = 0.5;
+
+    const playMusic = () => {
+      audio.play();
+      document.removeEventListener("click", playMusic);
+    };
+
+    document.addEventListener("click", playMusic);
+
+    return () => {
+      audio.pause();
+    };
+  }, []);
+
+  return (
+    <div>
+      {/* your existing content */}
+    </div>
+  );
+};
+
+export default FirstScreen;
 
     return (
         <motion.div
