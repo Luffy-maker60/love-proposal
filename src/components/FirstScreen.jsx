@@ -59,7 +59,7 @@ export default function FirstScreen({ onNext }) {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 1.5, duration: 0.8 }}
                 >
-                    Something that will change everything✨
+                    Something that will change everything if you agree✨
                 </motion.p>
 
                 <motion.div
