@@ -15,10 +15,10 @@ const FirstScreen = () => {
 
     const playMusic = () => {
       audio.play();
-      document.removeEventListener("click", playMusic);
+      window.removeEventListener("click", playMusic);
     };
 
-    document.addEventListener("click", playMusic);
+    window.addEventListener("click", playMusic);
 
     return () => {
       audio.pause();
