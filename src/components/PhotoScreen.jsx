@@ -68,7 +68,7 @@ export default function PhotoScreen({ onNext }) {
                     animate={{ opacity: 1 }}
                     transition={{ delay: 1 }}
                 >
-                    You've made every moment so special 💕
+                    You've made me so special  since we talk before then💕
                 </motion.p>
             </motion.div>
 
