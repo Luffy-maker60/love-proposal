@@ -59,7 +59,7 @@ export default function PhotoScreen({ onNext }) {
                 transition={{ delay: 0.3, duration: 1 }}
             >
                 <h1 className="text-2xl md:text-3xl text-pink-200 leading-relaxed mb-4 font-semibold">
-                    From the first day I met you, life became <span className="text-pink-400 font-bold">brighter...</span>
+                    Can we be each other <span className="text-pink-400 font-bold">company...</span>
                 </h1>
 
                 <motion.p
