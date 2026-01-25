@@ -1,8 +1,9 @@
 "use client"
 
+import React,{useEffect }from "react"
 import { motion } from "motion/react"
 import { Heart } from "lucide-react"
-import {useEffect }from "react"
+
 
 export default function FirstScreen({ onNext }) {
     import { useEffect } from "react";
