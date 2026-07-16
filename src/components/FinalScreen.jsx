@@ -12,14 +12,9 @@ export default function FinalScreen() {
   const [showOverlay, setShowOverlay] = useState(false)
   const messageRef = useRef(null)
 
-  const proposalMessage = `Even though we got separated after 6th class, the bond we shared never really faded for me.
-When we started talking again after 7 years, I felt the same care and warmth—maybe even stronger than before.
-
-And then we didn't talk any more 
-The way you look after me and understand me now means more than I can explain.
-
-Somewhere between our conversations, you became very special to my heart.
-So today, with all honesty, I want to ask—will you be more than my friend and be with me?.`
+  const proposalMessage = `ମୋ ଗେଲହୁ 🥺💗
+ମୁଁ ଜାଣେ ମୁଁ ତୁମକୁ ଦୁଃଖ ଦେଲି ଏବଂ ମିଛ କହିଲି — ମୋତେ ସାଚିଁ ମନରୁ କ୍ଷମା ମାଗୁଛି। ତୁମେ ମୋ ଜୀବନର ସବୁଠୁ ଭଲ କଥା — ତୁମର ହସ, ତୁମର କେୟାର, ସବୁକିଛି ମୋ ପାଇଁ ସ୍ପେସିଆଲ୍ ଅଛି। ତୁମେ ମୋତେ ଯେ ଭଲ ପାଅ, ସେଇଟା ମୁଁ କେବେ ଭୁଲି ପାରିବି ନାହିଁ 🌸
+ତୁମେ ସଚିଁରେ ବହୁତ ସୁନ୍ଦର ଏବଂ ବହୁତ ଭଲ ମନର — ମୋ ଭାଗ୍ୟ ଭଲ ଥିଲା ଯେ ତୁମେ ମୋ ଜୀବନରେ ଆସିଲ। ମୋ ଗେଲହୁ, ତୁମେ ମୋ ସବୁଠୁ ଭଲ ଟ୍ରେଜର 💕✨`
 
   useEffect(() => {
     if (cardOpen && !typingComplete) {
