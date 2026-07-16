@@ -7,20 +7,21 @@ import { Heart } from "lucide-react"
 export default function FirstScreen({ onNext }) {
 
   useEffect(() => {
-    const audio = new Audio("/bg-.mp3")
+    const audio = new Audio("/bg-.mp3") // ⚠️ double-check this matches your actual filename in /public exactly
     audio.loop = true
     audio.volume = 0.5
 
     const playMusic = () => {
-      audio.play().catch(() => {})
+      audio.play().catch((err) => console.log("Audio play failed:", err))
       window.removeEventListener("click", playMusic)
     }
 
     window.addEventListener("click", playMusic)
 
+    // NOTE: no cleanup that pauses/resets audio here —
+    // that was killing the music the moment this screen unmounted.
     return () => {
-      audio.pause()
-      audio.currentTime = 0
+      window.removeEventListener("click", playMusic)
     }
   }, [])
 
