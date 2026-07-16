@@ -2,7 +2,7 @@ import "./globals.css";
 
 export const metadata = {
   title: "Something Just for You!",
-  description: "A little surprise made just for you, open it with a smile Miss Shrabani ❤️",
+  description: "A little surprise made just for you, open it with a smile My Gelhu ❤️",
 };
 
 export default function RootLayout({ children }) {
