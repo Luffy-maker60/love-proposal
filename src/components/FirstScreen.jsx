@@ -7,7 +7,7 @@ import { Heart } from "lucide-react"
 export default function FirstScreen({ onNext }) {
 
   useEffect(() => {
-    const audio = new Audio("/bgmusic.mp3")
+    const audio = new Audio("/bg-.mp3")
     audio.loop = true
     audio.volume = 0.5
 
